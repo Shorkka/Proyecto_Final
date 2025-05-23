@@ -1,10 +1,10 @@
 import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
-import WelcomeScreen from '../screens/patients/WelcomeScreen';
-import KitsScreen from '../screens/patients/KitsScreen';
-import KitDetailsScreen from '../screens/patients/KitDetailsScreen';
-import PatientProfileScreen from '../screens/patients/PatientProfileScreen';
-import AppointmentScreen from '../screens/patients/AppointmentScreen';
+import WelcomeScreen from '../app/screens/patients/WelcomeScreen';
+import KitsScreen from '../app/screens/patients/KitsScreen';
+import KitDetailsScreen from '../app/screens/patients/KitDetailsScreen';
+import PatientProfileScreen from '../app/screens/patients/PatientProfileScreen';
+import AppointmentScreen from '../app/screens/patients/AppointmentScreen';
 
 const Stack = createStackNavigator();
 

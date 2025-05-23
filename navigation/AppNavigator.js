@@ -2,8 +2,8 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import RegistrationFlow from '../navigation/RegistrationFlow';
-import SplashScreen from '../screens/SplashScreen';
-import LoginScreen from '../screens/Login';
+import SplashScreen from '../app/screens/SplashScreen';
+import LoginScreen from '../app/screens/Login';
 import DrawerNavigation from '../navigation/DrawerNavigation';
 
 const Stack = createStackNavigator();
