@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: lexyvoz-backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: lexyvoz-backend
+  template:
+    metadata:
+      labels:
+        app: lexyvoz-backend
+    spec:
+      containers:
+        - name: backend
+          image: your-dockerhub/lexyvoz-backend:latest
+          ports:
+            - containerPort: 3000
